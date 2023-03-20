@@ -4,7 +4,6 @@
 # ADDRESS :- BANGALORE, KARNATAKA          #
 ############################################
 
-## Spotify Music Listener Puppeter Bot Creation.
 
 
 

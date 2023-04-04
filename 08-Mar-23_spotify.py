@@ -159,3 +159,5 @@ if __name__ == "__main__":
         "https://open.spotify.com/show/1VXcH8QHkjRcTCEd88Uti", 10
     )
     session.close()
+    
+    # This project is created for good reason.

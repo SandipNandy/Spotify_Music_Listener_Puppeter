@@ -3,8 +3,7 @@
  * DATE :- 08-MARCH-23
  * ADDRESS :- BANGALORE, KARNATAKA
  * Spotify music listener
- *
- */
+ **/
 
 // npm install puppeteer dotenv playwright
 require('dotenv').config()

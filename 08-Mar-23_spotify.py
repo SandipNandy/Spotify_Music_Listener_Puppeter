@@ -4,7 +4,6 @@
 # ADDRESS :- BANGALORE, KARNATAKA          #
 # Spotify Music Listener Puppeter          #
 ############################################
-
 import time
 import os
 from selenium import webdriver

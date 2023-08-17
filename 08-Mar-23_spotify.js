@@ -15,6 +15,7 @@ const puppeteer = require('puppeteer');
 // create a file called .env
 // SPOTIFY_USERNAME=
 // SPOTIFY_PASSWORD=
+
 const browserType = 'chromium'; // chrome
 const username = process.env.SPOTIFY_USERNAME;
 const password = process.env.SPOTIFY_PASSWORD;

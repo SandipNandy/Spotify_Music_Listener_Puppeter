@@ -30,7 +30,6 @@ async function main() {
   page.waitForTimeout = page.waitFor;
   await page.goto('https://accounts.spotify.com/en/login');
   await page.waitForTimeout(2000);
- 
   const inputUsername = await page.$('[ng-model="form.username"]');
  
   await inputUsername.type(username);

@@ -31,7 +31,6 @@ async function main() {
   const browser = await puppeteer.connect({ browserWSEndpoint });
   const page = await browser.newPage()
   // compat the existing function so the existing code doesn't have to be changed
- 
   page.waitForTimeout = page.waitFor;
 
   await page.goto('https://accounts.spotify.com/en/login');

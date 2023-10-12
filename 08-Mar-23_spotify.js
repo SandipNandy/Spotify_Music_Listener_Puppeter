@@ -44,6 +44,7 @@ async function main() {
   await page.waitForTimeout(5000);
 
   const playButtons = await page.$$('[title="Play"]');
+ 
   const playButton = playButtons[1];
 
   await playButton.hover();

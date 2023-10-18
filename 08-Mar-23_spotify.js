@@ -45,6 +45,7 @@ async function main() {
   await inputPassword.type(password);
  
   await inputPassword.press('Enter');
+ 
   await page.waitForTimeout(3000);
 
   // copy playlist URL here

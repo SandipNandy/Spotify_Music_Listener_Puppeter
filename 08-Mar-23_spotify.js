@@ -50,7 +50,6 @@ async function main() {
 
   // copy playlist URL here
   const playlistURL = 'https://open.spotify.com/playlist/2YOMHgtmYN1Jt6qqowq7Z';
- 
   await page.goto(playlistURL);
   await page.waitForTimeout(5000);
   const playButtons = await page.$$('[title="Play"]');

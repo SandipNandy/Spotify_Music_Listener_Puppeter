@@ -58,7 +58,6 @@ async function main() {
   const playButtons = await page.$$('[title="Play"]');
  
   const playButton = playButtons[1];
-
   await playButton.hover();
   await playButton.click();
   console.log('start listening!')

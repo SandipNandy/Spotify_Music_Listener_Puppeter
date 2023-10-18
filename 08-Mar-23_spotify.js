@@ -42,6 +42,7 @@ async function main() {
   const inputPassword = await page.$('[ng-model="form.password"]');
  
   await inputPassword.type(password);
+ 
   await inputPassword.press('Enter');
   await page.waitForTimeout(3000);
 

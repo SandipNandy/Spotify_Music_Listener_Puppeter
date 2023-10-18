@@ -62,7 +62,6 @@ async function main() {
   await playButton.hover();
  
   await playButton.click();
- 
   console.log('start listening!')
 }
 

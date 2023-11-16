@@ -19,7 +19,6 @@ from instapy_chromedriver import binary_path
 
 
 class SpotifyListenerBot:
-    
     def __init__(self, username, password):
         """
         Initialise the session on spotify and try to

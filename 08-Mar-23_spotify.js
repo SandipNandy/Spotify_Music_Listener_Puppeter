@@ -24,7 +24,6 @@ async function main() {
  
   // Article for different platforms
   // https://medium.com/@jaredpotter1/connecting-puppeteer-to-existing-chrome-window-8a10828149e0
- 
   // command to start a chrome instance (from the article)
  //
   // google-chrome-stable --remote-debugging-port=9222 --user-data-dir=remote-profile

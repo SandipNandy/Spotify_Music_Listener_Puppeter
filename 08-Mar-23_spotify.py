@@ -117,6 +117,7 @@ class SpotifyListenerBot:
             )
 
             # invisible play button on top of page, actual play button [1]
+            
             # print(f"Found {len(play_buttons)} play buttons")
             ActionChains(self.driver).move_to_element(play_buttons[1]).click(
                 play_buttons[1]

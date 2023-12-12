@@ -74,6 +74,7 @@ class SpotifyListenerBot:
             
             print("Sending username and password")
             action_chain = ActionChains(self.driver)
+            
             action_chain.move_to_element(username_input).click()
             action_chain.send_keys(username)
             action_chain.move_to_element(password_input).click()

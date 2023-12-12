@@ -69,6 +69,7 @@ class SpotifyListenerBot:
             )
 
             # using an action chain to write the username and password
+            
             # into the two input fields on the login screen
             print("Sending username and password")
             action_chain = ActionChains(self.driver)

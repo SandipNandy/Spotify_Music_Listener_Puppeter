@@ -32,7 +32,6 @@ async function main() {
   // compat the existing function so the existing code doesn't have to be changed
   page.waitForTimeout = page.waitFor;
   await page.goto('https://accounts.spotify.com/en/login');
- 
   await page.waitForTimeout(2000);
   const inputUsername = await page.$('[ng-model="form.username"]');
  

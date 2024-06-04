@@ -27,7 +27,6 @@ const password = process.env.SPOTIFY_PASSWORD;
 
 async function main() {
   //const browser = await playwright[browserType].launch({ headless: false });
- 
   // Article for different platforms
  
   // https://medium.com/@jaredpotter1/connecting-puppeteer-to-existing-chrome-window-8a10828149e0

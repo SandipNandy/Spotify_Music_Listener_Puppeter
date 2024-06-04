@@ -22,6 +22,7 @@ const puppeteer = require('puppeteer');
 const browserType = 'chromium';
 
 const username = process.env.SPOTIFY_USERNAME;
+
 const password = process.env.SPOTIFY_PASSWORD;
 async function main() {
   //const browser = await playwright[browserType].launch({ headless: false });

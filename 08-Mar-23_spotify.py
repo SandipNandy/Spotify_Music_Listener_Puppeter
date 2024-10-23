@@ -31,6 +31,7 @@ class SpotifyListenerBot:
         username - username or email of the to be logged in user
         password - password of the to be logged in user
         """
+        
         self.driver = webdriver.Chrome(executable_path=binary_path)
         ignored_exceptions = StaleElementReferenceException
         self.wait = WebDriverWait(

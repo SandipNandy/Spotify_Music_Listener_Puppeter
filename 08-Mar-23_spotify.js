@@ -3,7 +3,7 @@
  * DATE :- 08-MARCH-23
  * ADDRESS :- BANGALORE, KARNATAKA
  * Spotify music listener
- 
+ *
  ***/
 // npm install puppeteer dotenv playwright
 require('dotenv').config()
@@ -27,7 +27,6 @@ async function main() {
  
   // google-chrome-stable --remote-debugging-port=9222 --user-data-dir=remote-profile
   // copy the endpoint here
- 
   const browserWSEndpoint = 'ws://127.0.0.1:9222/devtools/browser/01f749a-f1be-45ac-b606-6e00abc417ee';
   const browser = await puppeteer.connect({ browserWSEndpoint });
  

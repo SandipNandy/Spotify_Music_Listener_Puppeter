@@ -26,6 +26,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException, TimeoutException
 
 # replaces the need to manually provide chrome binary path
+
 from instapy_chromedriver import binary_path
 
 

@@ -38,6 +38,7 @@ class SpotifyListenerBot:
         ignored_exceptions = StaleElementReferenceException
         
         self.wait = WebDriverWait(
+            
             self.driver, 10, ignored_exceptions=ignored_exceptions
         )
 

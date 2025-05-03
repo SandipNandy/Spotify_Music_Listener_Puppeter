@@ -25,7 +25,6 @@ class SpotifyListenerBot:
         """
         Initialise the session on spotify and try to
         login the user with the given credentials
-
         Parameters:
         username - username or email of the to be logged in user
         password - password of the to be logged in user

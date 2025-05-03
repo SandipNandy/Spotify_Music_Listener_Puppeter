@@ -18,7 +18,6 @@ from selenium.common.exceptions import StaleElementReferenceException, TimeoutEx
 # replaces the need to manually provide chrome binary path
 from instapy_chromedriver import binary_path
 
-
 class SpotifyListenerBot:
     
     def __init__(self, username, password):

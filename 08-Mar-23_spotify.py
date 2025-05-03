@@ -32,7 +32,6 @@ class SpotifyListenerBot:
         
         self.driver = webdriver.Chrome(executable_path=binary_path)
         ignored_exceptions = StaleElementReferenceException
-        
         self.wait = WebDriverWait(
             
             self.driver, 10, ignored_exceptions=ignored_exceptions

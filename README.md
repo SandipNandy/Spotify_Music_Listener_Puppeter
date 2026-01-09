@@ -10,4 +10,3 @@ This Spotify Music Listener Bot is created with the help of puppeter.
 
 
 
-

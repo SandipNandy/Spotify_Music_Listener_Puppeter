@@ -40,7 +40,6 @@ class SpotifyListenerBot:
         
         if not is_logged_in:
             raise Exception("Could not login with given credentials.")
-
     def login(self, username, password):
         """
         Login the user with the given username and password
